@@ -1,0 +1,4 @@
+Once we learned about the implementation of the diff linked list following patterns are seen while solving problems
+
+- recursion in ll
+-ll cycle detection
