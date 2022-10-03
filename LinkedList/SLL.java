@@ -154,6 +154,19 @@ public class SLL {
         System.out.println("Value "+ value + " not found");
     }
 
+    public void reverse(Node node){
+        if (node == tail){
+            head = tail;
+            return;
+        }
+
+        reverse(node.next);
+
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+    }
+
     public void display(){
         Node temp = head;
         while(temp != null){

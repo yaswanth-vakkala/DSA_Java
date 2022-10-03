@@ -1,4 +1,35 @@
 Once we learned about the implementation of the diff linked list following patterns are seen while solving problems
 
 - recursion in ll
--ll cycle detection
+-ll cycle detection (also applies for arrays)
+-fast and slow pointer method:
+    -used for cycle detection
+    -finding a node in cycle, etc
+-f and s method: (2 pointer)
+ -Take fast and slow pointer and with every iteration update slow by 1 and fast by 2 and if they meet then cycle exists.
+ -If cycle is not present fast pointer will point to null.
+ -2 possibilities:
+    -fs - fast is one step behind slow, in next iteration they will meet
+    -f-s - fast is 2 step behind slow, in next iteration fs and next iteration will meet
+    - space complexity - O(1), Time complexity if no cycle - O(n), if cycle - O(n)
+
+-problems done
+ insertion using recursion in ll
+ remove duplicates from sorted ll
+ merge 2 sorted ll
+ cycle detection
+ length of cycle
+ return node where cycle starts
+ Happy number
+ middle of ll
+ merge sort in ll using recursion
+ bubble sort in ll using recursion
+ reversing a ll using recursion
+ inplace reversal of ll using iteration
+ reverse part of ll
+ check if ll is palindrome
+ Reorder linkedlist
+ Reverse nodes in k group
+ reverse alternate k nodes in ll
+ rotate list
+

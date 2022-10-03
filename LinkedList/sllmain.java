@@ -18,5 +18,7 @@ public class sllmain {
         list.insertRec2(99,2);
         list.insertRec2(36, 0);
         list.display();
+
+
     }
 }
