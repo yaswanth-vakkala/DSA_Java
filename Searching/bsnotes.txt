@@ -1,0 +1,23 @@
+-problems done
+ ceiling of num
+ floor of num
+ smallest letter after target
+ find first and last position of element in sorted arr
+ position of an element in a sorted arr of infinite nums
+ peak index in a mountain array
+ find peak element
+ find in mountain array / bitonic array
+ search in rotated sorted arr
+   -find pivot in arr and apply bs on left and right sub arr
+ search in roated sorted arr with duplicate values
+   -if elements at middle,start,end are equal skip duplicates by start+1, end+1
+ rotation count
+ split arr largest sum
+ linear search in any 2d arr
+ matrix is sorted in row wise and col wise manner search
+ bs in sorted matrix
+   -reduce the search space by eliminating rows and columsn in the matrix
+
+
+
+
